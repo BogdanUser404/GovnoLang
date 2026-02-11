@@ -1,3 +1,12 @@
+/* 
+ * GovnoLang — кириллический C для настоящих богатырей
+ * Copyright © 2026 Богдан <mindyster2009@gmail.ru>
+ *
+ * This work is free. You can redistribute it and/or modify it under the
+ * terms of the Do What The Fuck You Want To Public License, Version 2,
+ * as published by Sam Hocevar. See the COPYING file for more details.
+ */
+
 // GovnoLang: кириллический C для настоящих богатырей
 #ifndef GOVNO_H
 #define GOVNO_H
