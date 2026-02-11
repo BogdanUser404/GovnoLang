@@ -42,6 +42,8 @@
 #define идтидо          goto
 #define продолжить      continue
 #define иди_нахуй       break
+#define чё              argv
+#define дохуя           argc
 
 // ========== Ввод-вывод (printf/scanf семья) ==========
 #include <stdio.h>
@@ -74,7 +76,9 @@
 #define выделить_массив(n, sz)  calloc(n, sz)
 #define перевыделить(ptr, sz)   realloc(ptr, sz)
 #define освободить(ptr)         free(ptr)
-
+#define двойное_число_из_строки(x)    strtod(x, НОЛЬ)
+#define двойное_число_из_строки_полный(x, endptr) strtod(x, endptr)
+#define число_из_строки(x)         atoi(x)
 // ========== Строки ==========
 #include <string.h>
 #define длина_строки(s)         strlen(s)
@@ -91,6 +95,7 @@
 #include <math.h>
 #define модуль(x)               ((x) < 0 ? -(x) : (x))
 #define корень(x)               sqrt(x)
+#define кубический_корень(x)    cbrt(x)
 #define синус(x)                sin(x)
 #define косинус(x)              cos(x)
 #define тангенс(x)              tan(x)
@@ -127,5 +132,8 @@
 #define определить          #define
 #define если_не_определено  #ifndef
 #define конец_если          #endif
+
+//
+
 
 #endif // GOVNO_H
